@@ -1,6 +1,6 @@
 <?php
 include('parciales/cabecera.php');
-include('menu.php');
+include('parciales/menu.php');
 ?>
 
   <!-- Content Wrapper. Contains page content -->
@@ -34,9 +34,10 @@ include('menu.php');
             <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
               <i class="fas fa-minus"></i>
             </button>
+            <!-- 
             <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
               <i class="fas fa-times"></i>
-            </button>
+            </button>->
           </div>
         </div>
         <div class="card-body">
@@ -59,7 +60,7 @@ include('menu.php');
     <div class="float-right d-none d-sm-block">
       <b>Version</b> 0.0.1
     </div>
-    <strong>Copyright &copy; 2020 <a href="https://mycodes4you.com">AMyCodes4You</a>.</strong> Todos los derechos reservados.
+    <strong>Copyright &copy; 2020 <a href="https://mycodes4you.com">MyCodes4You</a>.</strong> Todos los derechos reservados.
   </footer>
 
   <!-- Control Sidebar -->
