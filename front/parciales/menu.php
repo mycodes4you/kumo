@@ -9,7 +9,7 @@
         <a href="index.php" class="nav-link">Inicio</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="paginas/contacto.php" class="nav-link">Contacto</a>
+        <a href="inicio.php?accion=contacto" class="nav-link">Contacto</a>
       </li>
     </ul>
 
@@ -130,7 +130,7 @@
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alex Ramírez</a>
+          <a href="inicio.php?accion=cuenta" class="d-block"><?= $_SESSION['usuario_nombre_corto'] ?></a>
         </div>
       </div>
 
@@ -156,16 +156,16 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                Layout Options
+                Opciones
                 <i class="fas fa-angle-left right"></i>
                 <span class="badge badge-info right">6</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../layout/top-nav.html" class="nav-link">
+                <a href="login.php?accion=salir" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Top Navigation</p>
+                  <p>Salir</p>
                 </a>
               </li>
             </ul>
