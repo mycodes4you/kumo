@@ -26,7 +26,7 @@ if ($hora<12) {
 
 
 // --- URL para axios
-$url_axios = "https://localhost/control/";
+$url_axios = $_SERVER['HTTP_HOST'];
 //$url_axios = "https://atom-rm.com/control/";
 
 
@@ -49,9 +49,20 @@ if($accion == 'cuenta'){
 	
 	$titulo_pagina = 'Cuenta';
 	// ---- Marcar la sección en el menú ---
-	$menu_dashboard = 'active';
+	$menu_cuenta = 'active';
 	// --- BACKEND ----
 	include('front/cuenta.php');
+	unset($_SESSION['mensajes']);
+	
+}
+
+if($accion == 'instancias'){
+	
+	$titulo_pagina = 'Instancias';
+	// ---- Marcar la sección en el menú ---
+	$menu_instancias = 'active';
+	// --- BACKEND ----
+	include('front/instancias.php');
 	unset($_SESSION['mensajes']);
 	
 }

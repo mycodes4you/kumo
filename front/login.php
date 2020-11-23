@@ -34,10 +34,10 @@
       <form id="inicioSesion" autosomplete="off" @submit.prevent="login" class="form">
       <div id="printMe"></div>
         <div class="input-group mb-3">
-          <input type="email" class="form-control" v-model="email" placeholder="Email" name="email">
+          <input type="text" class="form-control" v-model="email" placeholder="Usuario" name="email">
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
+              <span class="fas fa-user"></span>
             </div>
           </div>
         </div>

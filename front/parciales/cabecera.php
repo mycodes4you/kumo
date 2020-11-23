@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <script src="plugins/vue/axios.min.js"></script>
+  <script src="plugins/vue/vue-moment.js"></script>
+  <script src="plugins/vue/vue.min.js"></script>
 </head>
 <body class="hold-transition sidebar-mini">
 	<!-- Site wrapper -->
