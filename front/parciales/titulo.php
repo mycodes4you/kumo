@@ -16,3 +16,10 @@
         </div>
       </div><!-- /.container-fluid -->
     </section>
+    <section class="content">
+      <div class="alert alert-info">
+        
+        <h5><?= $saludo ?></h5>
+        <big><center><?= $hora_actual ?></center></big>
+      </div>
+    </section>

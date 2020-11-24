@@ -45,7 +45,7 @@ if($accion == 'dashboard'){
 	
 }
 
-if($accion == 'cuenta'){
+elseif($accion == 'cuenta'){
 	
 	$titulo_pagina = 'Cuenta';
 	// ---- Marcar la sección en el menú ---
@@ -56,15 +56,86 @@ if($accion == 'cuenta'){
 	
 }
 
-if($accion == 'instancias'){
+elseif($accion == 'instancias'){
 	
 	$titulo_pagina = 'Instancias';
 	// ---- Marcar la sección en el menú ---
+	$menu_instancias_abierto = 'menu-open';
+	$menu_todas = 'active';
 	$menu_instancias = 'active';
 	// --- BACKEND ----
 	include('front/instancias.php');
 	unset($_SESSION['mensajes']);
 	
+}
+
+elseif($accion == 'instancias_activas'){
+	
+	$titulo_pagina = 'Instancias Activas';
+	// ---- Marcar la sección en el menú ---
+	$menu_instancias_activas = 'active';
+	$menu_instancias_abierto = 'menu-open';
+	$menu_instancias = 'active';
+	// --- BACKEND ----
+	include('front/instancias_activas.php');
+	unset($_SESSION['mensajes']);
+	
+}
+
+elseif($accion == 'instancias_inactivas'){
+	
+	$titulo_pagina = 'Instancias Inactivas';
+	// ---- Marcar la sección en el menú ---
+	$menu_instancias_inactivas = 'active';
+	$menu_instancias_abierto = 'menu-open';
+	$menu_instancias = 'active';
+	// --- BACKEND ----
+	include('front/instancias_inactivas.php');
+	unset($_SESSION['mensajes']);
+	
+}
+
+elseif($accion == 'instancias_codero'){
+	
+	$titulo_pagina = 'Instancias en servidor Codero';
+	// ---- Marcar la sección en el menú ---
+	$menu_instancias_codero = 'active';
+	$menu_instancias_abierto = 'menu-open';
+	$menu_instancias = 'active';
+	// --- BACKEND ----
+	include('front/instancias_codero.php');
+	unset($_SESSION['mensajes']);
+	
+}
+
+elseif($accion == 'instancias_ovh'){
+	
+	$titulo_pagina = 'Instancias en servidor OVH';
+	// ---- Marcar la sección en el menú ---
+	$menu_instancias_ovh = 'active';
+	$menu_instancias_abierto = 'menu-open';
+	$menu_instancias = 'active';
+	// --- BACKEND ----
+	include('front/instancias_ovh.php');
+	unset($_SESSION['mensajes']);
+	
+}
+
+elseif($accion == 'instancias_jupiter'){
+	
+	$titulo_pagina = 'Instancias en servidor Jupiter';
+	// ---- Marcar la sección en el menú ---
+	$menu_instancias_jupiter = 'active';
+	$menu_instancias_abierto = 'menu-open';
+	$menu_instancias = 'active';
+	// --- BACKEND ----
+	include('front/instancias_jupiter.php');
+	unset($_SESSION['mensajes']);
+	
+}
+else{
+	$titulo_pagina = 'Error 404';
+	include('front/404.php');
 }
 
 ?>

@@ -14,6 +14,7 @@
   <script src="plugins/vue/axios.min.js"></script>
   <script src="plugins/vue/vue-moment.js"></script>
   <script src="plugins/vue/vue.min.js"></script>
+  <link rel="stylesheet" href="plugins/toastr/toastr.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
 	<!-- Site wrapper -->

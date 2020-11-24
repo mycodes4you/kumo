@@ -3,15 +3,9 @@ include('parciales/cabecera.php');
 include('parciales/menu.php');
 include('parciales/titulo.php');
 ?>
-
-
     <!-- Main content -->
     <section class="content">
-      <div class="alert alert-success alert-dismissible">
-                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <h5><?= $saludo ?></h5>
-                  <big><center><?= $hora_actual ?></center></big>
-                </div>
+      
 
       <!-- Default box -->
       <div class="card">
