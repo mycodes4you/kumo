@@ -371,7 +371,7 @@ elseif ($accion == 'actualizar') {
 		//$bitacora = $conn->query("INSERT INTO bitacora (desc_bit) VALUES('$desc_bit')");
 
 		if ($result) {
-			$res['message'] = 'Exito! se actualizo la instancia ' .$instancia_nombre. ' -> '.$instancia_servidor;
+			$res['message'] = 'Exito! se actualizo la instancia ' .$instancia_nombre;
 			//$res['message2'] = $desc_bit;
 		} else {
 			$res['error']   = true;
