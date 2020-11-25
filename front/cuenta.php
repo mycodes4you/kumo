@@ -16,7 +16,7 @@ include('parciales/titulo.php');
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                       src="dist/img/user4-128x128.jpg"
+                       src="<?= $_SESSION['usuario_foto'] ?>"
                        alt="User profile picture">
                 </div>
 

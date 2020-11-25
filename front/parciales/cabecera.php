@@ -16,6 +16,6 @@
   <script src="plugins/vue/vue.min.js"></script>
   <link rel="stylesheet" href="plugins/toastr/toastr.min.css">
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini <?= $_SESSION['config_accent'] ?>">
 	<!-- Site wrapper -->
 	<div class="wrapper">

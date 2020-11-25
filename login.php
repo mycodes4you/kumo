@@ -60,6 +60,11 @@ elseif($accion == 'validar'){ // --- Validar datos ---
 			$_SESSION['usuario_nombre_corto'] = $datos['usuario_apellido1'] . ' ' . $datos['usuario_nombre1'];
 			$_SESSION['usuario_nombre_completo'] = $datos['usuario_apellido1'] . ' ' . $datos['usuario_apellido2'] . ' ' . $datos['usuario_nombre1'] . ' ' . $datos['usuario_nombre2'];
 			$_SESSION['usuario_activo'] = $datos['usuario_activo'];
+			$_SESSION['usuario_foto'] = $datos['usuario_foto'];
+			$_SESSION['config_navbar'] = $datos['config_navbar'];
+			$_SESSION['config_accent'] = $datos['config_accent'];
+			$_SESSION['config_sidebar'] = $datos['config_sidebar'];
+			$_SESSION['config_brand'] = $datos['config_brand'];
 
 
 		//print_r($_SESSION);

@@ -24,8 +24,6 @@ autoshop
 
 clave ssh
 autoshop
-Pf33.AxMDup.t8xm
-
 Myx9ln.2Rhz4rvp-1
 
 701
@@ -35,6 +33,11 @@ Rjf6ge.Fa
 
 admin_kumo
 Pv0@zr04
+
+
+jup2 10000
+agustin
+Vephw2.sTdljB3wfs
 
 
 
@@ -48,6 +51,25 @@ Sb3n23.J
 
 Karina
 5521917495
+
+
+192.168.2.199 1106
+agustin
+Pf33.AxMDup.t8xm
+/home/agustin/Grive/ACS/Proveedores/
+
+
+Comando para convertir las llaves privadas de CSD (*.key) a formato PEM para poder sellar con PHP:
+
+openssl pkcs8 -inform DER -in BSP200317UD6.key.key -out BSP200317UD6.key.pem -passin pass:Empresa1
+
+
+
+Comando para convertir las llaves públicas de CSD (*.cer) a formato PEM para poder sellar con PHP:
+
+openssl x509 -inform DER -outform PEM -in BSP200317UD6.cer -pubkey -out BSP200317UD6.cer.pem
+
+
 
 
 

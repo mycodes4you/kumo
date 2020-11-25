@@ -133,6 +133,18 @@ elseif($accion == 'instancias_jupiter'){
 	unset($_SESSION['mensajes']);
 	
 }
+elseif($accion == 'usuarios'){
+	
+	$titulo_pagina = 'Usuarios';
+	// ---- Marcar la sección en el menú ---
+	$menu_usuarios_t = 'active';
+	$menu_usuarios_abierto = 'menu-open';
+	$menu_usuarios = 'active';
+	// --- BACKEND ----
+	include('front/usuarios.php');
+	unset($_SESSION['mensajes']);
+	
+}
 else{
 	$titulo_pagina = 'Error 404';
 	include('front/404.php');
