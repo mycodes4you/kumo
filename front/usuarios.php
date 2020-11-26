@@ -85,7 +85,7 @@ include('parciales/titulo.php');
                   <thead>
                     <tr>
                       <th style="width: 10px">ID</th>
-                      <th>Foto</th>
+                      <th style="width: 20px;">Foto</th>
                       <th>Nombre</th>
                       <th>Usuario</th>
                       <th style="width: 10px">Editar</th>

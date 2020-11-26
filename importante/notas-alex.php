@@ -21,6 +21,11 @@ autoshop
 6tb1f1Oc
 
 
+ssh quiien v
+agustin
+Vephw2.sTdljB3wfs
+
+pas charlie11 f7b45976b1564eba0fd47febf92d10b5
 
 clave ssh
 autoshop
@@ -71,6 +76,9 @@ openssl x509 -inform DER -outform PEM -in BSP200317UD6.cer -pubkey -out BSP20031
 
 
 
+qebec 
+aurora
+controldb quite la proteccion
 
 
 
