@@ -167,6 +167,11 @@ include('parciales/titulo.php');
                 <label for="usuario_psswrd">Contraseña</label>
                 <input type="text" class="form-control" id="usuario_psswrd" v-model="clickedUsuario.usuario_psswrd">
               </div>
+
+              <div class="form-group">
+                <label for="usuario_activo">Activo?</label>
+                <input type="text" class="form-control" id="usuario_activo" v-model="clickedUsuario.usuario_activo">
+              </div>
             
 
 
